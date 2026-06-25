@@ -1,4 +1,4 @@
-<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/2f320233-8372-4ed9-8136-d5dd673737ee" />
+<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/cbbd0822-7b2a-42e6-a4c4-81195c712fa4" />
 
 # 🎬 How I Learn English with Your Mother
 
