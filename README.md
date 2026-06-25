@@ -10,62 +10,20 @@ Instead of passively watching videos, this project lets learners **explore every
 
 ## ✨ Features
 
-### 📖 Interactive Transcript && 🧩 Grammar Chunk Highlighting
-
-- Each sentence is automatically divided into meaningful learning units.
-- Click any subtitle line to jump to that part of the video
-- Automatically pauses at the end of the selected sentence
-- Expand transcript lines to reveal:
-  - Grammar chunks
-  - Native translation
-
-Every chunk receives a different color, making grammar easier to understand.
-
+- 📖 Interactive Transcript
+<br>
 <img width="1826" height="236" alt="Image" src="https://github.com/user-attachments/assets/b91063e8-b2c2-491b-a27a-2f598a957b6b" />
+<br><br>
 
----
-
-### 🌍 Multiple Subtitle Modes
-
-Choose how you want to practice.
-
-- 🌍 **Bilingual**
-- 📘 **English Only**
-- 🎧 **Native Translation**
-- 🚫 **Off**
-
-Perfect for progressing from guided learning to full listening practice.
-
+- 🌍 Multiple Subtitle Modes
+<br>
 <img width="1763" height="271" alt="Image" src="https://github.com/user-attachments/assets/044cd910-276f-483b-a6f8-68aaa49399b9" />
+<br><br>
 
----
-
-### ✏️ Drawing Mode
-
-Study directly on the transcript.
-
-Features include:
-
-- Freehand drawing
-- Multiple pen colors
-- Eraser
-- Adjustable pen size
-- Drawing persistence using LocalStorage
-- Clear canvas
-  
+- ✏️ Drawing Mode
+<br>
 <img width="1758" height="353" alt="Image" src="https://github.com/user-attachments/assets/90664026-17c6-476f-b8a3-0f04d0780035" />
 
----
-
-### 💾 Persistent Learning Progress
-
-The application automatically saves:
-
-- Last watched video
-- Playback position
-- Transcript drawings
-
-Everything is restored automatically on the next visit.
 
 ---
 
@@ -78,6 +36,14 @@ Everything is restored automatically on the next visit.
 5. Read the translation.
 6. Draw notes directly on the transcript.
 7. Repeat without losing progress.
+   
+ 💾 The application automatically saves:
+
+- Last watched video
+- Playback position
+- Transcript drawings
+
+Everything is restored automatically on the next visit.
 
 ---
 
@@ -117,8 +83,6 @@ This produces translations that are much more suitable for language learning.
 
 Contributions are always welcome!
 
-There are several ways you can help improve the project:
-
 ### 🌍 Add a New Language
 
 Want subtitles in your native language?
@@ -137,39 +101,21 @@ Example:
 }
 ```
 
----
+### ⭐️ Show Your Support
 
-### 📝 Improve Existing Translations
+- If you find this project useful, please consider giving it a ⭐ on GitHub.
+- Your support helps the project reach more people, motivates future development, and is greatly appreciated. Thank you!
 
-Although the subtitles are generated using modern LLMs, AI is not perfect.
+> \[!IMPORTANT]
+>
+> **⭐️ Star Us**, You will receive all release notifications from GitHub without any delay \~
 
-If you notice:
+<a href="https://github.com/dnizfor/how-i-learn-english-with-your-mother/stargazers">
+  <img width="1920" height="289" alt="Image" src="https://github.com/user-attachments/assets/4096ad79-bc90-4e05-9cad-ab20daff5852" />
+</a>
 
-- awkward wording
-- unnatural expressions
-- cultural inaccuracies
-- grammar mistakes
-- translation inconsistencies
 
-feel free to submit improvements through a Pull Request.
 
-Every contribution helps make the learning experience better for everyone.
-
----
-
-### 🎬 Improve Subtitle Quality
-
-You can also help by improving:
-
-- subtitle timing
-- grammar chunk segmentation
-- punctuation
-- sentence splitting
-- translation quality
-
-Small improvements across many subtitle files make a significant difference.
-
----
 
 ## 🚀 Tech Stack
 
