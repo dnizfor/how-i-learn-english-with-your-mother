@@ -227,7 +227,7 @@ This project is intended for educational purposes.
 
 ---
 
-❤️ Thank You
+## ❤️ Thank You
 
 Whether you fix a typo, improve a translation, or add support for an entirely new language, your contribution helps thousands of English learners around the world.
 
