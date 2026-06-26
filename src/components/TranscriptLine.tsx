@@ -1,10 +1,10 @@
-import type { TranscriptItem } from "../types/transcript.types";
+import type { Language, TranscriptItem } from "../types/transcript.types";
 
 interface TranscriptLineProps {
   item: TranscriptItem;
   index: number;
 
-  language: "tr" | "zh-CN";
+  language: Language;
 
   colors: string[];
 

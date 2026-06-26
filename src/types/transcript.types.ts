@@ -5,7 +5,12 @@ export interface TranscriptPart {
 
 export interface TranscriptTranslations {
   tr: string;
+  es: string;
   "zh-CN": string;
+  hi: string;
+  vi: string;
+  id: string;
+  th: string;
 }
 
 export interface TranscriptOffsets {

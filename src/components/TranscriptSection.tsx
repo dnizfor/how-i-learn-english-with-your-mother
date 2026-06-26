@@ -1,5 +1,9 @@
 import { useEffect, useRef, useState } from "react";
-import type { TranscriptItem, VideoItem } from "../types/transcript.types";
+import type {
+  Language,
+  TranscriptItem,
+  VideoItem,
+} from "../types/transcript.types";
 import TranscriptLine from "./TranscriptLine";
 import { colors } from "../utils/utils";
 import PenToolbar from "./PenToolbar";
@@ -7,7 +11,7 @@ import PenToolbar from "./PenToolbar";
 interface TranscriptSectionProps {
   video: VideoItem;
   videoIndex: number;
-  language: "tr" | "zh-CN";
+  language: Language;
   openTranscriptIndex: number | null;
   setOpenTranscriptIndex: React.Dispatch<React.SetStateAction<number | null>>;
   penEnabled: boolean;

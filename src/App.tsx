@@ -24,6 +24,7 @@ type SubtitleMode = "bilingual" | "english" | "off" | "native";
 export default function App() {
   const transcriptSectionRef = useRef<HTMLDivElement | null>(null);
   const playerRef = useRef<any>(null);
+  const stopIntervalRef = useRef<number | null>(null);
 
   const savedIndex = Number(localStorage.getItem("lastVideoIndex")) || 0;
 
@@ -76,13 +77,21 @@ export default function App() {
     const startSeconds = item.offsets.from / 1000;
     const endSeconds = item.offsets.to / 1000;
 
+    if (stopIntervalRef.current !== null) {
+      clearInterval(stopIntervalRef.current);
+      stopIntervalRef.current = null;
+    }
+
     player.pauseVideo();
     player.seekTo(startSeconds, true);
     player.playVideo();
 
-    const stopInterval = window.setInterval(() => {
+    stopIntervalRef.current = window.setInterval(() => {
       if (!playerRef.current) {
-        clearInterval(stopInterval);
+        if (stopIntervalRef.current !== null) {
+          clearInterval(stopIntervalRef.current);
+          stopIntervalRef.current = null;
+        }
         return;
       }
 
@@ -90,7 +99,11 @@ export default function App() {
 
       if (currentTime >= endSeconds) {
         playerRef.current.pauseVideo();
-        clearInterval(stopInterval);
+
+        if (stopIntervalRef.current !== null) {
+          clearInterval(stopIntervalRef.current);
+          stopIntervalRef.current = null;
+        }
       }
     }, 100);
   }
@@ -123,6 +136,14 @@ export default function App() {
       block: "nearest",
     });
   }, [videoIndex]);
+
+  useEffect(() => {
+    return () => {
+      if (stopIntervalRef.current !== null) {
+        clearInterval(stopIntervalRef.current);
+      }
+    };
+  }, []);
 
   const currentSubtitle =
     currentIndex >= 0 ? video.transcript[currentIndex] : null;
