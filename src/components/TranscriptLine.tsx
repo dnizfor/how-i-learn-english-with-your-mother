@@ -49,7 +49,7 @@ export default function TranscriptLine({
 
       <p>
         {expanded
-          ? item.parts.map((part, i) => (
+          ? (item.parts ?? []).map((part, i) => (
               <b
                 key={i}
                 style={{
