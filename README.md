@@ -11,19 +11,18 @@ Instead of passively watching videos, this project lets learners **explore every
 ## ✨ Features
 
 - 📖 Interactive Transcript
-<br>
-<img width="1826" height="236" alt="Image" src="https://github.com/user-attachments/assets/b91063e8-b2c2-491b-a27a-2f598a957b6b" />
-<br><br>
+  <br>
+  <img width="1826" height="236" alt="Image" src="https://github.com/user-attachments/assets/b91063e8-b2c2-491b-a27a-2f598a957b6b" />
+  <br><br>
 
 - 🌍 Multiple Subtitle Modes
-<br>
-<img width="1763" height="271" alt="Image" src="https://github.com/user-attachments/assets/044cd910-276f-483b-a6f8-68aaa49399b9" />
-<br><br>
+  <br>
+  <img width="1763" height="271" alt="Image" src="https://github.com/user-attachments/assets/044cd910-276f-483b-a6f8-68aaa49399b9" />
+  <br><br>
 
 - ✏️ Drawing Mode
-<br>
-<img width="1758" height="353" alt="Image" src="https://github.com/user-attachments/assets/90664026-17c6-476f-b8a3-0f04d0780035" />
-
+  <br>
+  <img width="1758" height="353" alt="Image" src="https://github.com/user-attachments/assets/90664026-17c6-476f-b8a3-0f04d0780035" />
 
 ---
 
@@ -36,8 +35,8 @@ Instead of passively watching videos, this project lets learners **explore every
 5. Read the translation.
 6. Draw notes directly on the transcript.
 7. Repeat without losing progress.
-   
- 💾 The application automatically saves:
+
+💾 The application automatically saves:
 
 - Last watched video
 - Playback position
@@ -57,7 +56,10 @@ The project currently provides AI-generated translations for the following langu
 | 🇹🇷 Turkish            | ✅ Supported |
 | 🇨🇳 Simplified Chinese | ✅ Supported |
 | 🇪🇸 Spanish            | ✅ Supported |
-
+| 🇮🇳 Hindi              | ✅ Supported |
+| 🇻🇳 Vietnamese         | ✅ Supported |
+| 🇮🇩 Indonesian         | ✅ Supported |
+| 🇹🇭 Thai               | ✅ Supported |
 
 More languages are welcome through community contributions.
 
@@ -113,9 +115,6 @@ Example:
 <a href="https://github.com/dnizfor/how-i-learn-english-with-your-mother/stargazers">
   <img width="1920" height="289" alt="Image" src="https://github.com/user-attachments/assets/4096ad79-bc90-4e05-9cad-ab20daff5852" />
 </a>
-
-
-
 
 ## 🚀 Tech Stack
 
