@@ -6,6 +6,12 @@ An interactive English learning platform built around **How I Met Your Mother** 
 
 Instead of passively watching videos, this project lets learners **explore every subtitle**, understand grammar structures, compare translations, and practice listening with multiple subtitle modes.
 
+<p align="center">
+  <a href="https://howilearnenglishwithyourmother.vercel.app/">
+    <strong>🚀 Visit Website</strong>
+  </a>
+</p>
+
 ---
 
 ## ✨ Features
