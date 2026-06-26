@@ -1,6 +1,8 @@
+import type { Language } from "../types/transcript.types";
+
 interface HeaderProps {
-  language: "tr" | "zh-CN";
-  setLanguage: React.Dispatch<React.SetStateAction<"tr" | "zh-CN">>;
+  language: Language;
+  setLanguage: React.Dispatch<React.SetStateAction<Language>>;
 }
 
 export default function Header({ language, setLanguage }: HeaderProps) {
@@ -11,10 +13,15 @@ export default function Header({ language, setLanguage }: HeaderProps) {
       <select
         className="languageSelect"
         value={language}
-        onChange={(e) => setLanguage(e.target.value as "tr" | "zh-CN")}
+        onChange={(e) => setLanguage(e.target.value as Language)}
       >
         <option value="tr">Türkçe</option>
         <option value="zh-CN">Chinese</option>
+        <option value="es">Spanish</option>
+        <option value="hi">Hindi</option>
+        <option value="vi">Vietnamese</option>
+        <option value="id">Indonesian</option>
+        <option value="th">Thai</option>
       </select>
     </div>
   );

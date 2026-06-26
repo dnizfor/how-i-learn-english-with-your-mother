@@ -9,14 +9,17 @@ import SubtitleTabs from "./components/SubtitleTabs";
 import ModeSwitch from "./components/ModeSwitch";
 import TranscriptSection from "./components/TranscriptSection";
 
-import type { AllTranscripts, TranscriptItem } from "./types/transcript.types";
+import type {
+  AllTranscripts,
+  TranscriptItem,
+  Language,
+} from "./types/transcript.types";
 import { getYoutubeId } from "./utils/utils";
 
 const allTranscripts = allTranscriptsJson as AllTranscripts;
 
 type Mode = "transcript" | "subtitle";
 type SubtitleMode = "bilingual" | "english" | "off" | "native";
-type Language = "tr" | "zh-CN";
 
 export default function App() {
   const transcriptSectionRef = useRef<HTMLDivElement | null>(null);

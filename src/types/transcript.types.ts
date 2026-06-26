@@ -36,3 +36,5 @@ export interface VideoItem {
 }
 
 export type AllTranscripts = VideoItem[];
+
+export type Language = "tr" | "zh-CN";
