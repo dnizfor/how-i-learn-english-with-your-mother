@@ -30,7 +30,7 @@ export interface TranscriptItem {
   offsets: TranscriptOffsets;
   timestamps: TranscriptTimestamps;
 
-  parts: TranscriptPart[];
+  parts?: TranscriptPart[];
   translations: TranscriptTranslations;
 }
 
