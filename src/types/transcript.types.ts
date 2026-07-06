@@ -11,6 +11,7 @@ export interface TranscriptTranslations {
   vi: string;
   id: string;
   th: string;
+  pt: string;
 }
 
 export interface TranscriptOffsets {
@@ -42,4 +43,4 @@ export interface VideoItem {
 
 export type AllTranscripts = VideoItem[];
 
-export type Language = "tr" | "es" | "zh-CN" | "hi" | "vi" | "id" | "th";
+export type Language = "tr" | "es" | "zh-CN" | "hi" | "vi" | "id" | "th" | "pt";

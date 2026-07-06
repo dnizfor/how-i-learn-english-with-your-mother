@@ -19,7 +19,7 @@ Instead of passively watching videos, this project lets learners **explore every
 - 📖 Interactive Transcript
 - 🌍 Multiple Subtitle Modes
 - ✏️ Drawing Mode
-  
+
   <img width="1826" height="236" alt="Image" src="https://github.com/user-attachments/assets/b91063e8-b2c2-491b-a27a-2f598a957b6b" />
   <img width="1763" height="271" alt="Image" src="https://github.com/user-attachments/assets/044cd910-276f-483b-a6f8-68aaa49399b9" />
   <img width="1758" height="353" alt="Image" src="https://github.com/user-attachments/assets/90664026-17c6-476f-b8a3-0f04d0780035" />
@@ -56,6 +56,7 @@ The project currently provides AI-generated translations for the following langu
 | 🇹🇷 Turkish            | ✅ Supported |
 | 🇨🇳 Simplified Chinese | ✅ Supported |
 | 🇪🇸 Spanish            | ✅ Supported |
+| 🇵🇹 Portuguese         | ✅ Supported |
 | 🇮🇳 Hindi              | ✅ Supported |
 | 🇻🇳 Vietnamese         | ✅ Supported |
 | 🇮🇩 Indonesian         | ✅ Supported |

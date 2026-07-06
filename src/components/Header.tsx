@@ -22,6 +22,7 @@ export default function Header({ language, setLanguage }: HeaderProps) {
         <option value="vi">Vietnamese</option>
         <option value="id">Indonesian</option>
         <option value="th">Thai</option>
+        <option value="pt">Portuguese</option>
       </select>
     </div>
   );
