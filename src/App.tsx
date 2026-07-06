@@ -15,6 +15,7 @@ import type {
   Language,
 } from "./types/transcript.types";
 import { getYoutubeId } from "./utils/utils";
+import Footer from "./components/Footer";
 
 const allTranscripts = allTranscriptsJson as AllTranscripts;
 
@@ -215,6 +216,7 @@ export default function App() {
           />
         </div>
       )}
+      <Footer />
     </div>
   );
 }
