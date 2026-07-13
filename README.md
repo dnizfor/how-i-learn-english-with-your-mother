@@ -25,7 +25,7 @@ Instead of passively watching videos, this project lets learners **explore every
   <img width="1758" height="353" alt="Image" src="https://github.com/user-attachments/assets/90664026-17c6-476f-b8a3-0f04d0780035" />
 
 ---
-## 🌍 Explore Our Open Source Language Learning Apps
+## 🌍 Explore Our Language Learning Apps
 
 Looking for more language learning tools? Explore our growing collection of projects designed to make learning languages more engaging through TV shows, anime, and interactive exercises.
 
