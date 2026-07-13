@@ -10,6 +10,14 @@ Instead of passively watching videos, this project lets learners **explore every
   <a href="https://howilearnenglishwithyourmother.vercel.app/">
     <strong>🚀 Visit Website</strong>
   </a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="ANDROID_DOWNLOAD_LINK">
+    <strong>📱 Download for Android</strong>
+  </a>
+    &nbsp;&nbsp;•&nbsp;&nbsp;
+    <a href="ANDROID_DOWNLOAD_LINK">
+    <strong>🍎 Download for IOS </strong>
+  </a>
 </p>
 
 ---
@@ -31,9 +39,8 @@ Looking for more language learning tools? Explore our growing collection of proj
 
 | Project | Language | Description |
 |----------|----------|-------------|
-| 🎬 **[Learn English with Your Mother (Mobile)](https://play.google.com/store/apps/details?id=com.dnizfor.hilewym)** | 🇬🇧 English | Learn English by practicing with **How I Met Your Mother** clips, interactive subtitles, grammar explanations, and AI-powered translations. |
-| ☕ **[Learn English with Friends](https://play.google.com/store/apps/details?id=com.dnizfor.friendsenglish)** | 🇬🇧 English | Improve your English through **Friends** episodes with interactive subtitles, listening exercises, and vocabulary learning. |
-| 🌸 **[Lingonime](https://play.google.com/store/apps/details?id=com.dnizfor.lingonime)** | 🇯🇵 Japanese | Learn Japanese through **anime** . |
+| ☕ **[Learn English with Friends](https://play.google.com/store/apps/details?id=com.dnizfor.friendsenglish)** | English | Improve your English through **Friends** episodes with interactive subtitles, listening exercises, and vocabulary learning. |
+| 🌸 **[Lingonime](https://play.google.com/store/apps/details?id=com.dnizfor.lingonime)** |  Japanese | Learn Japanese through **anime** . |
 
 ---
 
