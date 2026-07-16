@@ -201,6 +201,14 @@ body {
   line-height: 1.25;
 }
 
+.subtitleTranslation {
+  color: #d1d5db;
+}
+
+.subtitleBoxMobile {
+  display: none;
+}
+
 .bilingualTranslation {
   display: flex;
   flex-direction: column;
@@ -429,15 +437,23 @@ body {
     font-size: 16px;
   }
 
-  .subtitleBox {
-    bottom: 3%;
-    max-width: 92%;
-    padding: 6px 10px;
+  .subtitleBoxOverlay {
+    display: none;
+  }
+
+  .subtitleBoxMobile {
+    position: static;
+    display: block;
+    width: 100%;
+    max-width: none;
+    transform: none;
+    margin: 0 0 18px;
+    padding: 10px 12px;
     border-radius: 8px;
   }
 
-  .subtitleText {
-    font-size: 10px;
+  .subtitleBoxMobile .subtitleText {
+    font-size: 14px;
     font-weight: normal;
   }
 

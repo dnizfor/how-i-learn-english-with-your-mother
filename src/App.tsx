@@ -163,25 +163,12 @@ export default function App() {
         <VideoPlayer videoId={videoId} onReady={onReady} />
 
         {mode === "subtitle" && subtitleMode !== "off" && (
-          <div className="subtitleBox">
+          <div className="subtitleBox subtitleBoxOverlay">
             {(subtitleMode === "english" || subtitleMode === "bilingual") && (
               <p className="subtitleText">{currentSubtitle?.text}</p>
             )}
             {(subtitleMode === "native" || subtitleMode === "bilingual") && (
-              <p className="subtitleText">
-                {currentSubtitle?.translations[language]}
-              </p>
-            )}
-          </div>
-        )}
-
-        {mode === "subtitle" && subtitleMode !== "off" && (
-          <div className="subtitleBox">
-            {(subtitleMode === "english" || subtitleMode === "bilingual") && (
-              <p className="subtitleText">{currentSubtitle?.text}</p>
-            )}
-            {(subtitleMode === "native" || subtitleMode === "bilingual") && (
-              <p className="subtitleText" style={{ color: "#d1d5db" }}>
+              <p className="subtitleText subtitleTranslation">
                 {currentSubtitle?.translations[language]}
               </p>
             )}
@@ -201,6 +188,19 @@ export default function App() {
         setMode={setMode}
         transcriptSectionRef={transcriptSectionRef}
       />
+
+      {mode === "subtitle" && subtitleMode !== "off" && (
+        <div className="subtitleBox subtitleBoxMobile">
+          {(subtitleMode === "english" || subtitleMode === "bilingual") && (
+            <p className="subtitleText">{currentSubtitle?.text}</p>
+          )}
+          {(subtitleMode === "native" || subtitleMode === "bilingual") && (
+            <p className="subtitleText subtitleTranslation">
+              {currentSubtitle?.translations[language]}
+            </p>
+          )}
+        </div>
+      )}
 
       {mode === "transcript" && (
         <div ref={transcriptSectionRef}>
