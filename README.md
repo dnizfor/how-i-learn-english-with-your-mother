@@ -189,6 +189,10 @@ npm run dev
 
 This project is intended for educational purposes.
 
+## © Copyright Disclaimer
+
+All videos referenced in this project are publicly available on YouTube and remain the property of their respective copyright owners. This project is not affiliated with, endorsed by, or associated with any copyright holder and is intended solely for educational purposes.
+
 ---
 
 ## ❤️ Thank You
