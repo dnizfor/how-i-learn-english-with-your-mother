@@ -122,6 +122,14 @@ Example:
 }
 ```
 
+### 📣 Share It with Your Favorite Creator
+
+Know a YouTuber, language teacher, or content creator who might enjoy this project?
+
+Send them our app and invite them to try it, share feedback, or introduce it to their community. Every share helps the project reach more language learners around the world!
+
+<br>
+
 ### ⭐️ Show Your Support
 
 - If you find this project useful, please consider giving it a ⭐ on GitHub.
