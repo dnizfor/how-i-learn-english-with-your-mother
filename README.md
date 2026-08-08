@@ -11,7 +11,7 @@ Instead of passively watching videos, this project lets learners **explore every
     <strong>🚀 Visit Website</strong>
   </a>
   &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="ANDROID_DOWNLOAD_LINK">
+  <a href="https://play.google.com/store/apps/details?id=com.vidolin.lingosit">
     <strong>📱 Download for Android</strong>
   </a>
     &nbsp;&nbsp;•&nbsp;&nbsp;
