@@ -39,7 +39,7 @@ Looking for more language learning tools? Explore our growing collection of proj
 
 | Project | Language | Description |
 |----------|----------|-------------|
-| ☕ **[Learn English with Friends](https://play.google.com/store/apps/details?id=com.dnizfor.friendsenglish)** | English | Improve your English through **Friends** episodes with interactive subtitles, listening exercises, and vocabulary learning. |
+| ☕ **[Learn English with Friends](https://play.google.com/store/apps/details?id=com.vidolin.lingosit)** | English | Improve your English through **Friends** episodes with interactive subtitles, listening exercises, and vocabulary learning. |
 | 🌸 **[Lingonime](https://play.google.com/store/apps/details?id=com.dnizfor.lingonime)** |  Japanese | Learn Japanese through **anime** . |
 
 ---
